@@ -1,12 +1,5 @@
-export const increment = (x) => {
+export const addtocart = () => {
     return {
-        type: 'INCREMENT',
-        payload: x
-    }
-}
-export const decrement = (x) => {
-    return {
-        type: 'DECREMENT',
-        payload: x
+        type: 'ADDTOCART'
     }
 }
