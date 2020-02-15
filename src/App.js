@@ -16,7 +16,7 @@ function App() {
               <img src='http://via.placeholder.com/360x240' alt="alt" />
               <h3>Product Item</h3>
               <p><span>$</span>60.30</p>
-              <Button variant="primary" onClick={() => dispatch(addtocart())}>Add to cart</Button>
+              <Button variant="primary" onClick={() => dispatch(addtocart(60.30))}>Add to cart</Button>
             </div>
           </Col>
         </Row>

@@ -9,7 +9,8 @@ import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const store = createStore(
-    reducers // All Reducers, Combined Reducers
+    reducers, // All Reducers, Combined Reducers
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
 ReactDOM.render(
